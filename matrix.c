@@ -7,7 +7,7 @@ biti(){
 	srand (time(NULL));
 	n=1000000;
 			for(i=1;i<=n;i++){
-								r=rand()%2+0;
+								r=rand()%2+0; /* aici generez valorile de la 0 la 1 */
 								printf("%d ",r);
 							}
 	
