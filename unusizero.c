@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
-/*aceasta functie creeaza efect binar de matrix*/
+/*aceasta functie scrie un sir aleator de 1 si 0*/
 biti(){
 	int n,i,r;
-	printf("Afisez 1 milion de valori dupa cum urmeaza: \n",n);
+	printf("Cat de mare sa fie sirul : \n");
+	scanf("%d",&n);
 	srand (time(NULL));
-	n=1000000;
 			for(i=1;i<=n;i++){
 								r=rand()%2+0;
 								printf("%d ",r);
