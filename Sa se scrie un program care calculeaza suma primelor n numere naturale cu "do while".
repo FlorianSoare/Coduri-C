@@ -11,7 +11,7 @@ do /* apelam instructiunea do - realizeaza */
 	s+=i;   //s=s+i; 
 	i++;
  }
-  while(i<=n) /* atata timp cat i este mai mic sau egal cu n repetam pasii de mai sus */
+  while(i<=n); /* atata timp cat i este mai mic sau egal cu n repetam pasii de mai sus */
  
  printf("Suma primelor %d numere naturale este: %d\n",n,s); /* afisam suma primelor n numere naturale */
  
