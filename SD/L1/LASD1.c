@@ -1,10 +1,5 @@
 #include<stdio.h>
-
 #include<stdlib.h>
-
-
-
-
 
 /* exercitiul 1 :generator de trei numere random */
 
@@ -15,6 +10,8 @@ printf("%d %d %d\n",rand(),rand(),rand());
 return 0 ;
 /*se observa ca valorile sunt aceleasi ? */
 }
+
+/*exercitiul 2 : generator de numere random diferite */
 
 
 #include<time.h> // ! ! ! !
@@ -31,6 +28,8 @@ return 0 ;
 
 }
 
+/*exercitiul 3 : generator de numar de la 1 la o valoare data n */
+
 /* o functie ce returneaza un numar aleator de la 1 la o valoare n ceruta de aplicatie */
 random1n(){
 	int n;
@@ -43,10 +42,18 @@ random1n(){
 }
 
 
+random01(){
+	
+/*functie ce genereaza un numar aleator intre 0 si 1 */
+	
+	printf( "\nO valoare intre 0 si 1 care este aleatoare este urmatoarea: %f \n" , (float) rand() /RAND_MAX) ;
 
+
+}
 
 int main(){
 	random();
 	randomseed();
 	random1n();
+	random01();
 }
